@@ -1,0 +1,36 @@
+[0.751s] Invoking command in '/home/qtl/ros2book/chapt2/src/demo_python_pkg': PYTHONPATH=/home/qtl/ros2book/chapt2/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/qtl/ros2book/chapt2/build/demo_python_pkg/build install --record /home/qtl/ros2book/chapt2/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data
+[0.935s] running egg_info
+[0.946s] creating ../../build/demo_python_pkg/demo_python_pkg.egg-info
+[0.946s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.947s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.947s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.947s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.947s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.947s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.971s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.971s] adding license file 'LICENSE'
+[0.972s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.972s] running build
+[0.972s] running build_py
+[0.972s] creating /home/qtl/ros2book/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.973s] copying demo_python_pkg/python_node.py -> /home/qtl/ros2book/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.973s] copying demo_python_pkg/__init__.py -> /home/qtl/ros2book/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.974s] copying demo_python_pkg/py.typed -> /home/qtl/ros2book/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.974s] running install
+[0.977s] running install_lib
+[0.988s] creating /home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg
+[0.989s] copying /home/qtl/ros2book/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg
+[0.989s] copying /home/qtl/ros2book/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg
+[0.989s] copying /home/qtl/ros2book/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg/py.typed -> /home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg
+[0.990s] byte-compiling /home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/python_node.py to python_node.cpython-314.pyc
+[0.990s] byte-compiling /home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/__init__.py to __init__.cpython-314.pyc
+[0.990s] running install_data
+[0.991s] creating /home/qtl/ros2book/chapt2/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.992s] copying resource/demo_python_pkg -> /home/qtl/ros2book/chapt2/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.992s] copying package.xml -> /home/qtl/ros2book/chapt2/install/demo_python_pkg/share/demo_python_pkg
+[0.992s] running install_egg_info
+[1.003s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg-0.0.0-py3.14.egg-info
+[1.005s] running install_scripts
+[1.070s] Installing python_node script to /home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/demo_python_pkg
+[1.071s] writing list of installed files to '/home/qtl/ros2book/chapt2/build/demo_python_pkg/install.log'
+[1.096s] Invoked command in '/home/qtl/ros2book/chapt2/src/demo_python_pkg' returned '0': PYTHONPATH=/home/qtl/ros2book/chapt2/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qtl/ros2book/chapt2/install/demo_python_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/qtl/ros2book/chapt2/build/demo_python_pkg/build install --record /home/qtl/ros2book/chapt2/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data

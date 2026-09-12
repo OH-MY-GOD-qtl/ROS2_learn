@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/qtl/ros2book/chapt2/build/ros2_cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,2 @@
+Invoking command in '/home/qtl/ros2book/chapt2/build/ros2_cpp': /usr/bin/cmake --build /home/qtl/ros2book/chapt2/build/ros2_cpp -- -j32 -l32
+Invoked command in '/home/qtl/ros2book/chapt2/build/ros2_cpp' returned '0': /usr/bin/cmake --build /home/qtl/ros2book/chapt2/build/ros2_cpp -- -j32 -l32
