@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[0.106s] [100%] Built target cpp_node
+[0.116s] Invoked command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[0.126s] Invoking command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg
+[0.133s] -- Install configuration: ""
+[0.134s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.134s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.fish
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.135s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.135s] -- Installing: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.136s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.136s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.136s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.136s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.137s] Invoked command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg

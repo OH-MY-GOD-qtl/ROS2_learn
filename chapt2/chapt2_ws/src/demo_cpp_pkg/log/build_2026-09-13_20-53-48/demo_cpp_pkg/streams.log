@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/qtl/ros2book/chapt2/src/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /home/qtl/ros2book/chapt2/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/qtl/ros2book/chapt2/src/demo_cpp_pkg/install/demo_cpp_pkg
+[0.270s] -- The C compiler identification is GNU 15.2.0
+[1.000s] -- The CXX compiler identification is GNU 15.2.0
+[1.494s] -- Detecting C compiler ABI info
+[1.687s] -- Detecting C compiler ABI info - done
+[1.698s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.698s] -- Detecting C compile features
+[1.699s] -- Detecting C compile features - done
+[1.713s] -- Detecting CXX compiler ABI info
+[1.911s] -- Detecting CXX compiler ABI info - done
+[1.923s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.923s] -- Detecting CXX compile features
+[1.923s] -- Detecting CXX compile features - done
+[1.948s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[2.223s] -- Found rclcpp: 32.0.2 (/opt/ros/lyrical/share/rclcpp/cmake)
+[2.274s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[2.286s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[2.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.413s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[2.418s] -- Found rmw_fastrtps_cpp: 9.4.9 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[2.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.536s] [31mCMake Error at CMakeLists.txt:16 (ament_target_dependencies):
+[2.536s]   Unknown CMake command "ament_target_dependencies".
+[2.536s] 
+[2.536s] [0m
+[2.536s] -- Configuring incomplete, errors occurred!
+[2.543s] Invoked command in '/home/qtl/ros2book/chapt2/src/demo_cpp_pkg/build/demo_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /home/qtl/ros2book/chapt2/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/qtl/ros2book/chapt2/src/demo_cpp_pkg/install/demo_cpp_pkg

@@ -1,3 +1,0 @@
-[0.160s] Invoking command in '/home/qtl/ros2book/chapt2/build/ros2_cpp': /usr/bin/cmake --build /home/qtl/ros2book/chapt2/build/ros2_cpp -- -j32 -l32
-[0.258s] [100%] Built target ros2_cpp_node
-[0.267s] Invoked command in '/home/qtl/ros2book/chapt2/build/ros2_cpp' returned '0': /usr/bin/cmake --build /home/qtl/ros2book/chapt2/build/ros2_cpp -- -j32 -l32
