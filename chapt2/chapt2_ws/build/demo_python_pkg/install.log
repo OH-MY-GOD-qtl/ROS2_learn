@@ -1,7 +1,11 @@
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/python_node.py
+/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/write_node.py
+/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/person_node.py
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/__init__.py
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/py.typed
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/__pycache__/python_node.cpython-314.pyc
+/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/__pycache__/write_node.cpython-314.pyc
+/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/__pycache__/person_node.cpython-314.pyc
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/__pycache__/__init__.cpython-314.pyc
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages/demo_python_pkg
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/share/demo_python_pkg/package.xml
@@ -12,4 +16,6 @@
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg-0.0.0-py3.14.egg-info/PKG-INFO
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg-0.0.0-py3.14.egg-info/dependency_links.txt
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg-0.0.0-py3.14.egg-info/requires.txt
+/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg/person_node
 /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg/python_node
+/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg/write_node
