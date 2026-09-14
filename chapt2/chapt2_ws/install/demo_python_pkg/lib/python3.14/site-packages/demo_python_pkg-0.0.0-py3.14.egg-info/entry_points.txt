@@ -1,0 +1,4 @@
+[console_scripts]
+person_node = demo_python_pkg.person_node:main
+python_node = demo_python_pkg.python_node:main
+write_node = demo_python_pkg.write_node:main
