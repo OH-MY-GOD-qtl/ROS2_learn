@@ -1,0 +1,21 @@
+[1.044s] Invoking command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg': PYTHONPATH=/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/build --no-deps symlink_data --force
+[1.245s] running develop
+[1.343s] running egg_info
+[1.353s] writing demo_python_pkg.egg-info/PKG-INFO
+[1.355s] writing dependency_links to demo_python_pkg.egg-info/dependency_links.txt
+[1.355s] writing entry points to demo_python_pkg.egg-info/entry_points.txt
+[1.355s] writing requirements to demo_python_pkg.egg-info/requires.txt
+[1.355s] writing top-level names to demo_python_pkg.egg-info/top_level.txt
+[1.376s] reading manifest file 'demo_python_pkg.egg-info/SOURCES.txt'
+[1.377s] writing manifest file 'demo_python_pkg.egg-info/SOURCES.txt'
+[1.388s] running build_ext
+[1.388s] Creating /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo-python-pkg.egg-link (link to .)
+[1.389s] Installing person_node script to /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.389s] Installing python_node script to /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.389s] Installing write_node script to /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.389s] 
+[1.389s] Installed /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg
+[1.389s] running symlink_data
+[1.389s] symbolically linking /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/resource/demo_python_pkg -> /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[1.391s] symbolically linking /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/package.xml -> /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/share/demo_python_pkg
+[1.417s] Invoked command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg' returned '0': PYTHONPATH=/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/build --no-deps symlink_data --force

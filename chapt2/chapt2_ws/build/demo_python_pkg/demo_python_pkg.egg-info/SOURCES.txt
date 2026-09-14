@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -14,9 +13,11 @@ demo_python_pkg/person_node.py
 demo_python_pkg/py.typed
 demo_python_pkg/python_node.py
 demo_python_pkg/write_node.py
+demo_python_pkg.egg-info/PKG-INFO
+demo_python_pkg.egg-info/SOURCES.txt
+demo_python_pkg.egg-info/dependency_links.txt
+demo_python_pkg.egg-info/entry_points.txt
+demo_python_pkg.egg-info/requires.txt
+demo_python_pkg.egg-info/top_level.txt
+demo_python_pkg.egg-info/zip-safe
 resource/demo_python_pkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_mypy.py
-test/test_pep257.py
-test/test_xmllint.py

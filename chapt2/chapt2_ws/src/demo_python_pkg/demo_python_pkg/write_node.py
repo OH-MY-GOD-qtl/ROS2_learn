@@ -1,3 +1,5 @@
+import rclpy
+
 from demo_python_pkg.person_node import PersonNode
 
 class WriteNode(PersonNode):
@@ -7,5 +9,8 @@ class WriteNode(PersonNode):
         self.book = book
 
 def main():
+    rclpy.init()
     node = WriteNode('法外狂徒张三', 18, '论持久战')
     node.eat('鱼香肉丝')
+    rclpy.spin(node)
+    rclpy.shutdown()

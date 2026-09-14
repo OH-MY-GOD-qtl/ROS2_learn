@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying demo_python_pkg/python_node.py -> /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+copying demo_python_pkg/write_node.py -> /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+copying demo_python_pkg/person_node.py -> /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+copying demo_python_pkg/__init__.py -> /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+copying demo_python_pkg/py.typed -> /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+running install
+running install_lib
+copying /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/person_node.py -> /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg
+byte-compiling /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg/person_node.py to person_node.cpython-314.pyc
+running install_data
+copying resource/demo_python_pkg -> /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/share/demo_python_pkg
+running install_egg_info
+removing '/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.14/site-packages/demo_python_pkg-0.0.0-py3.14.egg-info
+running install_scripts
+Installing person_node script to /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+Installing python_node script to /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+Installing write_node script to /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+writing list of installed files to '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_python_pkg/install.log'
