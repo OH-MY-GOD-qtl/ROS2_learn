@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 21,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 36,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -266,7 +266,7 @@
 				"person_node"
 			],
 			"targetId" : "person_node::@6890427a1f51a3e7e1df",
-			"targetIndex" : 2,
+			"targetIndex" : 3,
 			"type" : "target"
 		},
 		{
@@ -275,6 +275,29 @@
 			"cxxModuleBmiTarget" : 
 			{
 				"id" : "person_node::@6890427a1f51a3e7e1df",
+				"index" : 3
+			},
+			"destination" : "lib/demo_cpp_pkg",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/demo_cpp_pkg",
+			"paths" : 
+			[
+				"learn_auto"
+			],
+			"targetId" : "learn_auto::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "learn_auto::@6890427a1f51a3e7e1df",
 				"index" : 2
 			},
 			"destination" : "lib/demo_cpp_pkg",

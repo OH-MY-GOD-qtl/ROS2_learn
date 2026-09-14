@@ -65,11 +65,13 @@ CMAKE_BINARY_DIR = /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg
 # The main recursive "all" target.
 all: CMakeFiles/cpp_node.dir/all
 all: CMakeFiles/person_node.dir/all
+all: CMakeFiles/learn_auto.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/cpp_node.dir/codegen
 codegen: CMakeFiles/person_node.dir/codegen
+codegen: CMakeFiles/learn_auto.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -81,6 +83,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/demo_cpp_pkg_uninstall.dir/clean
 clean: CMakeFiles/cpp_node.dir/clean
 clean: CMakeFiles/person_node.dir/clean
+clean: CMakeFiles/learn_auto.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -186,7 +189,7 @@ CMakeFiles/cpp_node.dir/clean:
 CMakeFiles/person_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target person_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target person_node"
 .PHONY : CMakeFiles/person_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -203,13 +206,45 @@ person_node: CMakeFiles/person_node.dir/rule
 # codegen rule for target.
 CMakeFiles/person_node.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=3,4 "Finished codegen for target person_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=5,6 "Finished codegen for target person_node"
 .PHONY : CMakeFiles/person_node.dir/codegen
 
 # clean rule for target.
 CMakeFiles/person_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/clean
 .PHONY : CMakeFiles/person_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/learn_auto.dir
+
+# All Build rule for target.
+CMakeFiles/learn_auto.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target learn_auto"
+.PHONY : CMakeFiles/learn_auto.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/learn_auto.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/learn_auto.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/learn_auto.dir/rule
+
+# Convenience name for target.
+learn_auto: CMakeFiles/learn_auto.dir/rule
+.PHONY : learn_auto
+
+# codegen rule for target.
+CMakeFiles/learn_auto.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles --progress-num=3,4 "Finished codegen for target learn_auto"
+.PHONY : CMakeFiles/learn_auto.dir/codegen
+
+# clean rule for target.
+CMakeFiles/learn_auto.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/clean
+.PHONY : CMakeFiles/learn_auto.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

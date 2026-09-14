@@ -223,6 +223,19 @@ person_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
 .PHONY : person_node/fast
 
+#=============================================================================
+# Target rules for targets named learn_auto
+
+# Build rule for target.
+learn_auto: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_auto
+.PHONY : learn_auto
+
+# fast build rule for target.
+learn_auto/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/build
+.PHONY : learn_auto/fast
+
 src/cpp_node.o: src/cpp_node.cpp.o
 .PHONY : src/cpp_node.o
 
@@ -246,6 +259,30 @@ src/cpp_node.s: src/cpp_node.cpp.s
 src/cpp_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/cpp_node.cpp.s
 .PHONY : src/cpp_node.cpp.s
+
+src/learn_auto.o: src/learn_auto.cpp.o
+.PHONY : src/learn_auto.o
+
+# target to build an object file
+src/learn_auto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o
+.PHONY : src/learn_auto.cpp.o
+
+src/learn_auto.i: src/learn_auto.cpp.i
+.PHONY : src/learn_auto.i
+
+# target to preprocess a source file
+src/learn_auto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/src/learn_auto.cpp.i
+.PHONY : src/learn_auto.cpp.i
+
+src/learn_auto.s: src/learn_auto.cpp.s
+.PHONY : src/learn_auto.s
+
+# target to generate assembly for a file
+src/learn_auto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_auto.dir/build.make CMakeFiles/learn_auto.dir/src/learn_auto.cpp.s
+.PHONY : src/learn_auto.cpp.s
 
 src/person_node.o: src/person_node.cpp.o
 .PHONY : src/person_node.o
@@ -287,10 +324,14 @@ help:
 	@echo "... demo_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_node"
+	@echo "... learn_auto"
 	@echo "... person_node"
 	@echo "... src/cpp_node.o"
 	@echo "... src/cpp_node.i"
 	@echo "... src/cpp_node.s"
+	@echo "... src/learn_auto.o"
+	@echo "... src/learn_auto.i"
+	@echo "... src/learn_auto.s"
 	@echo "... src/person_node.o"
 	@echo "... src/person_node.i"
 	@echo "... src/person_node.s"

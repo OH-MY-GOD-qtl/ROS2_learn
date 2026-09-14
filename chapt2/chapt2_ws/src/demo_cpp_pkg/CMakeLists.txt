@@ -14,11 +14,13 @@ find_package(rclcpp REQUIRED)
 
 add_executable(cpp_node src/cpp_node.cpp)
 add_executable(person_node src/person_node.cpp) 
+add_executable(learn_auto src/learn_auto.cpp)
 
 target_link_libraries(cpp_node rclcpp::rclcpp)
 target_link_libraries(person_node rclcpp::rclcpp)
+target_link_libraries(learn_auto rclcpp::rclcpp)
 
-install(TARGETS cpp_node person_node
+install(TARGETS cpp_node person_node learn_auto
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
