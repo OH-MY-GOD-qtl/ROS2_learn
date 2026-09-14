@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 32,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -253,6 +253,29 @@
 			{
 				"id" : "cpp_node::@6890427a1f51a3e7e1df",
 				"index" : 0
+			},
+			"destination" : "lib/demo_cpp_pkg",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/demo_cpp_pkg",
+			"paths" : 
+			[
+				"person_node"
+			],
+			"targetId" : "person_node::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "person_node::@6890427a1f51a3e7e1df",
+				"index" : 2
 			},
 			"destination" : "lib/demo_cpp_pkg",
 			"type" : "cxxModuleBmi"

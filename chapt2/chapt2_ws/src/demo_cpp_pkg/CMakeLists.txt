@@ -13,8 +13,12 @@ find_package(rclcpp REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(cpp_node src/cpp_node.cpp)
+add_executable(person_node src/person_node.cpp) 
+
 target_link_libraries(cpp_node rclcpp::rclcpp)
-install(TARGETS cpp_node
+target_link_libraries(person_node rclcpp::rclcpp)
+
+install(TARGETS cpp_node person_node
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

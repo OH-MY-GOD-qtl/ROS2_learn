@@ -1,0 +1,54 @@
+[0.014s] Invoking command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/lyrical /usr/bin/cmake --build /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[0.086s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.269s] -- Found rclcpp: 32.0.2 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.303s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.309s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.399s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.401s] -- Found rmw_fastrtps_cpp: 9.4.9 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.433s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.497s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.604s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.605s] -- Configured cppcheck include dirs: 
+[0.605s] -- Configured cppcheck exclude dirs and/or files: 
+[0.607s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.607s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.612s] -- Added test 'lint_cmake' to check CMake code style
+[0.614s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.632s] -- Added test 'uncrustify' to check C / C++ code style
+[0.632s] -- Configured uncrustify additional arguments: 
+[0.635s] -- Added test 'xmllint' to check XML markup files
+[0.637s] -- Configuring done (0.6s)
+[0.658s] -- Generating done (0.0s)
+[0.682s] -- Build files have been written to: /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg
+[0.715s] [ 25%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[0.728s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[3.744s] [ 75%] [1m[32mLinking CXX executable person_node[0m
+[3.810s] [100%] [1m[32mLinking CXX executable cpp_node[0m
+[3.992s] [100%] Built target person_node
+[4.001s] [100%] Built target cpp_node
+[4.011s] Invoked command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/lyrical /usr/bin/cmake --build /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[4.018s] Invoking command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/lyrical /usr/bin/cmake --install /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg
+[4.024s] -- Install configuration: ""
+[4.025s] -- Installing: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[4.026s] -- Set non-toolchain portion of runtime path of "/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[4.026s] -- Installing: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[4.027s] -- Set non-toolchain portion of runtime path of "/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[4.027s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[4.027s] -- Installing: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[4.027s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[4.027s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.fish
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[4.028s] -- Installing: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[4.028s] -- Up-to-date: /home/qtl/ros2book/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[4.030s] Invoked command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/lyrical /usr/bin/cmake --install /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg
