@@ -1,0 +1,9 @@
+[01m[K/home/qtl/ros2book/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:[m[K In lambda function:
+[01m[K/home/qtl/ros2book/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:5:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    5 |     auto add = [](int a, int b) -> int {return a + b[01;31m[K}[m[K;
+      |                                                     [01;31m[K^[m[K
+      |                                                     [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/learn_lambda.dir/build.make:79: CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/learn_lambda.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -673,4 +673,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cpp_node.dir/DependInfo.cmake"
   "CMakeFiles/person_node.dir/DependInfo.cmake"
   "CMakeFiles/learn_auto.dir/DependInfo.cmake"
+  "CMakeFiles/learn_shared_ptr.dir/DependInfo.cmake"
+  "CMakeFiles/learn_lambda.dir/DependInfo.cmake"
   )

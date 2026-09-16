@@ -15,12 +15,13 @@ find_package(rclcpp REQUIRED)
 add_executable(cpp_node src/cpp_node.cpp)
 add_executable(person_node src/person_node.cpp) 
 add_executable(learn_auto src/learn_auto.cpp)
+add_executable(learn_shared_ptr src/learn_shared_ptr.cpp)
+add_executable(learn_lambda src/learn_lambda.cpp)
 
 target_link_libraries(cpp_node rclcpp::rclcpp)
 target_link_libraries(person_node rclcpp::rclcpp)
-target_link_libraries(learn_auto rclcpp::rclcpp)
 
-install(TARGETS cpp_node person_node learn_auto
+install(TARGETS cpp_node person_node learn_auto learn_shared_ptr learn_lambda
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

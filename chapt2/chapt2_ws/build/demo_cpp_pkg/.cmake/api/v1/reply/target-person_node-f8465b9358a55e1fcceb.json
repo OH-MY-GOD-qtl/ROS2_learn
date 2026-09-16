@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "learn_auto"
+			"path" : "person_node"
 		}
 	],
 	"backtrace" : 1,
@@ -80,19 +80,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 23,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -932,7 +932,7 @@
 			]
 		}
 	],
-	"id" : "learn_auto::@6890427a1f51a3e7e1df",
+	"id" : "person_node::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -1328,8 +1328,8 @@
 			"id" : "rclcpp::rclcpp::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "learn_auto",
-	"nameOnDisk" : "learn_auto",
+	"name" : "person_node",
+	"nameOnDisk" : "person_node",
 	"paths" : 
 	{
 		"build" : ".",
@@ -1350,7 +1350,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/learn_auto.cpp",
+			"path" : "src/person_node.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

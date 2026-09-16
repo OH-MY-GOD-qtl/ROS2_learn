@@ -1,0 +1,2 @@
+Invoking command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/lyrical /usr/bin/cmake --build /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+Invoked command in '/home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/qtl/ros2book/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/lyrical /usr/bin/cmake --build /home/qtl/ros2book/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
