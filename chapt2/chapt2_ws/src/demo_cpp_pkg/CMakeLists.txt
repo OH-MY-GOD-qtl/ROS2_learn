@@ -12,6 +12,8 @@ find_package(rclcpp REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+include_directories(include)
+
 add_executable(cpp_node src/cpp_node.cpp)
 add_executable(person_node src/person_node.cpp) 
 add_executable(learn_auto src/learn_auto.cpp)
