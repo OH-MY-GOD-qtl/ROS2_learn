@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/learn_auto.dir/link.d CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o -o learn_auto

@@ -1,3 +1,0 @@
-/home/qtl/ros2book/chapt1/CMakeFiles/learn_cmake.dir
-/home/qtl/ros2book/chapt1/CMakeFiles/edit_cache.dir
-/home/qtl/ros2book/chapt1/CMakeFiles/rebuild_cache.dir

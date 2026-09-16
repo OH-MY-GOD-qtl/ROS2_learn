@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/learn_cmake.dir/link.d CMakeFiles/learn_cmake.dir/hello_world.cpp.o -o learn_cmake
