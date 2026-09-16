@@ -17,11 +17,12 @@ add_executable(person_node src/person_node.cpp)
 add_executable(learn_auto src/learn_auto.cpp)
 add_executable(learn_shared_ptr src/learn_shared_ptr.cpp)
 add_executable(learn_lambda src/learn_lambda.cpp)
+add_executable(learn_function src/learn_function.cpp)
 
 target_link_libraries(cpp_node rclcpp::rclcpp)
 target_link_libraries(person_node rclcpp::rclcpp)
 
-install(TARGETS cpp_node person_node learn_auto learn_shared_ptr learn_lambda
+install(TARGETS cpp_node person_node learn_auto learn_shared_ptr learn_lambda learn_function
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

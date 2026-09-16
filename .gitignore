@@ -1,0 +1,15 @@
+# ROS 2 / colcon generated files
+**/build/
+**/install/
+**/log/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Python generated files
+__pycache__/
+*.py[cod]
