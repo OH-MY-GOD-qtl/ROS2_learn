@@ -5,7 +5,7 @@
 #include <cpp-httplib/httplib.h>
 
 class Download {
-    public:
+public:
     void download(const std::string &host, const std::string &path, const std::function<void(const std::string &, const std::string &)> &callback){
         std::cout << "线程ID:" << std::this_thread::get_id() << std::endl;
         httplib::Client client(host);
