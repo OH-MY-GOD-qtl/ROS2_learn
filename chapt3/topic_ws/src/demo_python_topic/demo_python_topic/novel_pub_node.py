@@ -8,7 +8,8 @@ class NovelPubNode(Node):
     def __init__(self, node_name):
         super().__init__(node_name)
         self.novels_queue_ = Queue()
-        self.novel_publisher_ = self.create_publisher(String, 'novel_topic', 10)
+        self.novel_publisher_ = self.create_publisher(String, 'novel', 10)
+        self.timer_ = self.create_timer(5, self.timer_callback)
 
     def download_novel(self, url):
         response = requests.get(url)
@@ -27,7 +28,7 @@ class NovelPubNode(Node):
 def main():
     rclpy.init()
     node = NovelPubNode('novel_pub_node')
-    node.download_novel('https://localhost:8000/novel.txt')
+    node.download_novel('http://localhost:8000/novel1.txt')
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
