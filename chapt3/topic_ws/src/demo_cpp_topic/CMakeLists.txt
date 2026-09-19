@@ -9,16 +9,22 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(turtlesim REQUIRED)
+find_package(turtlesim_msgs REQUIRED)
 
 add_executable(turtle_circle src/turtle_circle.cpp)
+add_executable(turtle_control src/turtle_control.cpp)
 
 target_link_libraries(turtle_circle rclcpp::rclcpp
   geometry_msgs::geometry_msgs__rosidl_generator_cpp
   geometry_msgs::geometry_msgs__rosidl_typesupport_cpp)
+target_link_libraries(turtle_control rclcpp::rclcpp
+  geometry_msgs::geometry_msgs__rosidl_generator_cpp
+  geometry_msgs::geometry_msgs__rosidl_typesupport_cpp
+  turtlesim_msgs::turtlesim_msgs__rosidl_generator_cpp
+  turtlesim_msgs::turtlesim_msgs__rosidl_typesupport_cpp)
 
 install(TARGETS
-  turtle_circle
+  turtle_circle turtle_control
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
