@@ -12,7 +12,7 @@ private:
     double target_x_{1.0};
     double target_y_{1.0};
     double k_{1.0};
-    double max_speed_{1.0};
+    double max_speed_{3.0};
     void on_pose_received_(const turtlesim_msgs::msg::Pose::SharedPtr pose){
         auto message = geometry_msgs::msg::Twist();
         double current_x = pose -> x;
@@ -31,8 +31,8 @@ private:
 
 public:
     TurtleController() : Node("turtle_controller"){
-        velocity_publisher_ = this ->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
-        pose_subscription_ = this -> create_subscription<turtlesim_msgs::msg::Pose>("/turtle1/pose", 10, std::bind(&TurtleController::on_pose_received_, this, std::placeholders::_1));
+        velocity_publisher_ = this ->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 1);
+        pose_subscription_ = this -> create_subscription<turtlesim_msgs::msg::Pose>("/turtle1/pose", 1, std::bind(&TurtleController::on_pose_received_, this, std::placeholders::_1));
     }
 };
 
