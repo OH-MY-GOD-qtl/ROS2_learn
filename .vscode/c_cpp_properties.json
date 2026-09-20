@@ -4,9 +4,15 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/lyrical/include/**"
+                "/opt/ros/lyrical/include/**",
+                "/usr/include/x86_64-linux-gnu/qt6/**",
+                "/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++"
             ],
-            "defines": [],
+            "defines": [
+                "QT_CORE_LIB",
+                "QT_GUI_LIB",
+                "QT_WIDGETS_LIB"
+            ],
             "compilerPath": "/usr/bin/g++",
             "cStandard": "gnu23",
             "cppStandard": "gnu++17",
