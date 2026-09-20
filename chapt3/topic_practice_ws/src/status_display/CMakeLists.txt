@@ -14,9 +14,15 @@ find_package(Qt6 COMPONENTS Widgets REQUIRED)
 set(CMAKE_AUTOMOC ON)
 
 add_executable(hello_qt src/hello_qt.cpp)
-target_link_libraries(hello_qt Qt6::Widgets)
+add_executable(sys_status_display src/sys_status_display.cpp)
 
-install(TARGETS hello_qt
+target_link_libraries(hello_qt Qt6::Widgets)
+target_link_libraries(sys_status_display
+  rclcpp::rclcpp
+  status_interfaces::status_interfaces__rosidl_typesupport_cpp
+  Qt6::Widgets)
+
+install(TARGETS hello_qt sys_status_display
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
