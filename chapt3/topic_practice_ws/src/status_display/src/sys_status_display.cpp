@@ -5,6 +5,7 @@
 #include <QApplication>
 #include <QLabel>
 #include <QString>
+#include <QTimer>
 #include "rclcpp/rclcpp.hpp"
 #include "status_interfaces/msg/system_status.hpp"
 
@@ -45,8 +46,18 @@ int main(int argc, char **argv){
     QApplication app(argc, argv);
     auto node = std::make_shared<SysStatusDisplay>();
     std::thread spin_thread([&]() -> void{rclcpp::spin(node);});
-    spin_thread.detach();
-    app.exec();
+
+    // 定期检查 ROS 是否还在运行；被 Ctrl+C 关闭后让 Qt 退出
+    QTimer timer;
+    QObject::connect(&timer, &QTimer::timeout, [&](){
+        if (!rclcpp::ok()) {
+            app.quit();
+        }
+    });
+    timer.start(100);  // 每 100ms 检查一次
+
+    int ret = app.exec();
     rclcpp::shutdown();
-    return 0;
+    spin_thread.join();
+    return ret;
 }
