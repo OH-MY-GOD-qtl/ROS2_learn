@@ -7,7 +7,7 @@ import platform
 class SysStatusPub(Node):
     def __init__(self, node_name):
         super().__init__(node_name)
-        self.status_publisher_ = self.create_publisher(SystemStatus, 'sys_status', 10)
+        self.status_publisher_ = self.create_publisher(SystemStatus, 'system_status', 10)
         self.timer = self.create_timer(1, self.timer_callback)
 
     def timer_callback(self):
