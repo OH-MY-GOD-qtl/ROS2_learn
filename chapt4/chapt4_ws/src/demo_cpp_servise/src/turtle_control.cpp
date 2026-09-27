@@ -13,8 +13,8 @@ private:
     rclcpp::Service<Patrol>::SharedPtr patrol_server_;
     rclcpp::Subscription<turtlesim_msgs::msg::Pose>::SharedPtr pose_subscription_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_publisher_;
-    double target_x_{2.0};
-    double target_y_{2.0};
+    double target_x_{1.0};
+    double target_y_{1.0};
     double k_{1.0};
     double max_speed_{3.0};
     void on_pose_received_(const turtlesim_msgs::msg::Pose::SharedPtr pose){
