@@ -11,6 +11,7 @@ find_package(chapt4_interfaces REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
+find_package(turtlesim_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -23,5 +24,22 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+add_executable(turtle_control src/turtle_control.cpp)
+
+target_include_directories(turtle_control PRIVATE
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+
+target_link_libraries(turtle_control rclcpp::rclcpp
+  geometry_msgs::geometry_msgs__rosidl_generator_cpp
+  geometry_msgs::geometry_msgs__rosidl_typesupport_cpp
+  turtlesim_msgs::turtlesim_msgs__rosidl_generator_cpp
+  turtlesim_msgs::turtlesim_msgs__rosidl_typesupport_cpp
+  chapt4_interfaces::chapt4_interfaces__rosidl_generator_cpp
+  chapt4_interfaces::chapt4_interfaces__rosidl_typesupport_cpp)
+
+install(TARGETS turtle_control
+  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
