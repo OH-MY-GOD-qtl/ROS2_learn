@@ -20,7 +20,14 @@ public:
     }
     
     void timer_callback(){
-
+        while(!patrol_client_ -> wait_for_service(std::chrono::seconds(1))){
+            if(!rclcpp::ok()){
+                RCLCPP_ERROR(this -> get_logger(), "等待服务过程被打断");
+                return;
+            }
+            RCLCPP_INFO(this -> get_logger(), "等待服务上线中");
+        }
+        
     }
 };
 

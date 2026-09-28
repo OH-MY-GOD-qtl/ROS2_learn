@@ -3,6 +3,8 @@ import sys
 
 import cv2
 
+# 人脸识别会污染全局python环境，建立临时虚拟环境没必要，就不写了
+
 try:
     from ament_index_python.packages import get_packages_share_directory
 except ImportError:
