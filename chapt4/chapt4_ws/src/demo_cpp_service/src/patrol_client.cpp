@@ -27,7 +27,18 @@ public:
             }
             RCLCPP_INFO(this -> get_logger(), "等待服务上线中");
         }
-        
+        auto request = std::make_shared<Patrol::Request>();
+        request -> target_x = rand() % 15;
+        request -> target_y = rand() % 15;
+        RCLCPP_INFO(this -> get_logger(), "请求巡逻:(%f, %f)", request -> target_x, request -> target_y);
+        patrol_client_ -> async_send_request(request, [&](rclcpp::Client<Patrol>::SharedFuture result_future) -> void{
+            auto response = result_future.get();
+            if (response -> result == Patrol::Response::SUCCESS){
+                RCLCPP_INFO(this -> get_logger(), "目标点处理成功");
+            }else if(response -> result == Patrol::Response::FALL){
+                RCLCPP_INFO(this -> get_logger(), "目标点处理失败");
+            }
+        });
     }
 };
 
