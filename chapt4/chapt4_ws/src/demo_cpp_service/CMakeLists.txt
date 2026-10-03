@@ -26,6 +26,7 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(turtle_control src/turtle_control.cpp)
+add_executable(patrol_client src/patrol_client.cpp)
 
 target_include_directories(turtle_control PRIVATE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -39,7 +40,16 @@ target_link_libraries(turtle_control rclcpp::rclcpp
   chapt4_interfaces::chapt4_interfaces__rosidl_generator_cpp
   chapt4_interfaces::chapt4_interfaces__rosidl_typesupport_cpp)
 
-install(TARGETS turtle_control
+
+target_include_directories(patrol_client PRIVATE
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+
+target_link_libraries(patrol_client rclcpp::rclcpp
+  chapt4_interfaces::chapt4_interfaces__rosidl_generator_cpp
+  chapt4_interfaces::chapt4_interfaces__rosidl_typesupport_cpp)
+
+install(TARGETS turtle_control patrol_client
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
