@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/qtl/ros2book/chapt1"
+    "cmake.sourceDirectory": "/home/qtl/ros2book/chapt1",
+    "cmake.cmakePath": "/usr/bin/cmake"
 }
